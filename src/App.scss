@@ -1,3 +1,4 @@
+*{padding: 0; margin: 0;}
 .App {
   text-align: center;
 }
@@ -14,16 +15,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  &__user{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px;
+  }
 }
-
+.black{
+  background-color: #282c34;
+}
+.blue{
+  background-color: aqua;
+}
 .App-link {
   color: #61dafb;
 }
